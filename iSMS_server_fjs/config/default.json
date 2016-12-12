@@ -1,0 +1,37 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/iSMSServer",
+  "public": "../public/",
+  "auth": {
+    "usernameField": "username",
+    "userEndpoint": "/api/v1/users",
+    "token": {
+      "secret": "W4oj4u1UG9vD43oiAM3xy2AgMNJ1tR5yOcQ4vNlcBacynaCc2kA07oDxy1DuJoxqbqa74JgxWAuBsvucZ5qnwQ=="
+    },
+    "local": {},
+    "facebook": {
+      "clientID": "1138360949568452",
+      "clientSecret": "d91d1499b04395e81e46ffe05b7bf4a2",
+      "permissions": {
+        "scope": ["public_profile","email"]
+      }
+    },
+    "google": {
+      "clientID": "39733688158-6n4fvsk4midj8h4hdlm37aftuftel6fl.apps.googleusercontent.com",
+      "clientSecret": "yzWDRS_Ks7SHxunlQDMCJFd8",
+      "permissions": {
+        "scope": ["profile"]
+      }
+    }
+  },
+  "encryption": {
+    "encryptionPassword": "d6F3Efeq"
+  },
+  "rocketchat": {
+    "serverEndpoint": "http://localhost:3000",
+    "secretURL": "fzTohJyTHRbm72dWu",
+    "adminUser": "test",
+    "adminPassword": "test"
+  }
+}
